@@ -72,8 +72,7 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log('================================================');
   console.log('  MEMBER 5 API DEMO (FC-05 + FC-06 + FC-07 + AUDIT)');
-  console.log('  Nghiệp vụ: _read/Phat-Trien-Du-An-Phan-Mem-main/');
-  console.log('             members/member5_Modules_QA/src/js/modules/');
+  console.log('  Nghiệp vụ: members/member5_Modules_QA/src/js/modules/');
   console.log(`  Server: http://localhost:${PORT}`);
   console.log('================================================');
 });
