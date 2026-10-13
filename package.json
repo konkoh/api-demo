@@ -1,0 +1,15 @@
+{
+  "name": "member5-api-demo",
+  "version": "1.0.0",
+  "description": "API demo pham vi member5: FC-05 Diem danh, FC-06 Hoc phi, FC-07 Xuat bao cao, Audit Logging - xay dung tren cac module member5",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
