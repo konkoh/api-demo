@@ -5,8 +5,8 @@ import {
   exportClassListToExcel,
   exportLatestReceiptToPDF,
   exportGradeBookToExcel
-} from '../../../_read/Phat-Trien-Du-An-Phan-Mem-main/members/member5_Modules_QA/src/js/modules/exportModule.js';
-import { getTuitions } from '../../../_read/Phat-Trien-Du-An-Phan-Mem-main/members/member5_Modules_QA/src/js/modules/tuitionModule.js';
+} from '../../../members/member5_Modules_QA/src/js/modules/exportModule.js';
+import { getTuitions } from '../../../members/member5_Modules_QA/src/js/modules/tuitionModule.js';
 
 export function exportClassList(classId) {
   return exportClassListToExcel(classId);

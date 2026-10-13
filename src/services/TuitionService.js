@@ -7,8 +7,8 @@ import {
   getTuitions as moduleGetTuitions,
   payTuition as modulePayTuition,
   getDebtReport as moduleGetDebtReport
-} from '../../../_read/Phat-Trien-Du-An-Phan-Mem-main/members/member5_Modules_QA/src/js/modules/tuitionModule.js';
-import { logAction, AUDIT_ACTIONS } from '../../../_read/Phat-Trien-Du-An-Phan-Mem-main/members/member5_Modules_QA/src/js/modules/auditLogger.js';
+} from '../../../members/member5_Modules_QA/src/js/modules/tuitionModule.js';
+import { logAction, AUDIT_ACTIONS } from '../../../members/member5_Modules_QA/src/js/modules/auditLogger.js';
 
 export function createTuitionNotice(body) {
   const notice = moduleCreateTuitionNotice(body);

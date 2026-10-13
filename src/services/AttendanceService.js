@@ -7,8 +7,8 @@ import {
   getAbsenceStatistics as moduleGetAbsenceStatistics,
   getExamBanWarnings as moduleGetExamBanWarnings,
   getParentNotifications as moduleGetParentNotifications
-} from '../../../_read/Phat-Trien-Du-An-Phan-Mem-main/members/member5_Modules_QA/src/js/modules/attendanceModule.js';
-import { logAction, AUDIT_ACTIONS } from '../../../_read/Phat-Trien-Du-An-Phan-Mem-main/members/member5_Modules_QA/src/js/modules/auditLogger.js';
+} from '../../../members/member5_Modules_QA/src/js/modules/attendanceModule.js';
+import { logAction, AUDIT_ACTIONS } from '../../../members/member5_Modules_QA/src/js/modules/auditLogger.js';
 import { ATTENDANCE_HISTORY } from '../data/seed.js';
 
 export function saveDailyAttendance(body) {
